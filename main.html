@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <Title>About Me</Title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Valerie's personal website">
+        <meta name="keywords" content="Valerie, personal website, portfolio">
+        <meta name="author" content="Valerie">
+        <link rel="stylesheet" href="styles.css">
+        
+
+</head>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="main.html">Login/Sign Up</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<body>
+<div class="form-grid">
+    <form class="login-form">
+        <h2>Login</h2>
+        <label for="login-email">Email</label>
+        <input type="email" id="login-email" name="email" placeholder="Enter Your Email">
+        <label for="login-password">Password</label>
+        <input type="password"id="login-password" name="password" placeholder="Enter your Password">
+        <button type="submit">Login Now</button>
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+    <form class="signup-form">
+        <h2>Sign Up</h2>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter your First Name" required minlength="2">
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastnane" placeholder="Enter your Last Name" required minlength="2">
+        <label for="signup-email">Email</label>
+        <input type="email" id="signup-email" name="email" placeholder="Enter your email" required minlength="5" maxlength="20">
+        <label for="create-password">Password</label>
+        <input type="password" id="create-password" name="password" placeholder="Choose a Password" required minlength="5">
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="password" placeholder="Confirm your Password" required minlength="5">
+    <button type="submit">Sign Up Now!!!!</button>
+    </form>
+</div>
+</body>
+</html>

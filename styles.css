@@ -1,0 +1,228 @@
+ body{
+    background-image: url('back_ground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+ body h1{
+background-color: rgba(180, 0, 90, 0.25);
+  padding:15px 0;
+ }
+ body{
+  background-color: rgba(180, 0 ,90, 0.25);
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+ }
+ #valerie.png{
+    width: 200px;
+    height: auto;
+    border: #d98ac5 solid 2px;
+}
+.blog-text{
+max-width: 500px;
+}
+.container {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+section{
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+nav{
+ width: 100%;
+  background-color: rgba(180, 0, 90, 0.25);
+  padding:15px 0;
+  box-sizing: border-box;
+}
+nav ul{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li{
+  flex: 1;
+  text-align: center;
+}
+#main{
+  display: grid;
+    padding: 20px;
+    background-color: darkorchid;
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 5px;
+}
+.newsletter{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:2 20px;
+    background-color: rgba(255, 105, 180, 0.25);
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
+    padding: 25px;
+    margin:auto;
+    border-radius: 20px;
+}
+h2{
+    background-color: rgba(153, 50, 204, 0.25);
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
+    padding: 25px;
+    margin:auto;
+    border-radius: 20px;
+}
+h1{
+    background-color: rgba(255, 105, 180, 0.25);
+    backdrop-filter: blur(10px);
+    --webkit-backdrop-filter: blur(10px);
+    padding: 25px;
+    margin:auto;
+    border-radius: 20px;
+    text-align: center;
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:30px;
+  width: 90%;
+  margin: 0 auto;
+}
+.login-form form{
+  padding: 30px;
+  border: 2px solid #d98ac5;
+  border-radius: 15px;
+  background-color: rgba(255, 182, 193, 0.2);
+}
+.signup-form form{
+   padding: 30px;
+  border: 2px solid #d98ac5;
+  border-radius: 15px;
+  background-color: rgba(255, 182, 193, 0.2);
+}
+.login-form h2{
+  width: 100px;
+  height: auto;
+  text-align: center;
+  background-color: lightcoral;
+}
+.signup-form h2{
+  width: 100px;
+  height: auto;
+  text-align: center;
+  background-color: lightcoral;
+}
+.login-form input{
+display: block;
+width: 100%;
+padding: 10px;
+margin: 10px 0 20px;
+box-sizing: border-box;
+}
+.signup-form input{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 20px;
+  box-sizing: border-box;
+}
+.login-form button{
+  width: 25%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: hotpink;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.signup-form button{
+width: 25%;
+padding: 12px;
+border: salmon;
+border-radius: 8px;
+background-color: hotpink;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+section{
+  background-color: rgba(153, 50, 204, 0.25);
+  border-radius: 8px;
+  border-color: lightpink;
+}
+section h2{
+  background-color: rgba(217, 138, 197, 0.25);
+  text-align: center;
+}
+section ul{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: disc;
+}
+section li{
+  flex: 1;
+  text-align: center;
+  list-style: ordered;
+}
+.blog-text{
+  background-color: rgba(217, 138, 197, 0.25);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+p{
+  border-radius: 5px;
+  background-color: #d98ac5;
+  text-align: center;
+}
+p:hover{
+  box-shadow: 5px 0px 25px black;
+}
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #e8b6df;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    background: #c98ac5;
+    transform: scale(1.05);
+}
+form h2{
+display: inline;
+padding: 10px;
+background-color: #d98ac5;
+text-decoration: none;
+font-weight: bold;
+}
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+} 
+.photo-gallery img {
+    width: 50%;
+    height: 125px;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.photo-gallery img:hover {
+    transform: scale(1.05);
+}
